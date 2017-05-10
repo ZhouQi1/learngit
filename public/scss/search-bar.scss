@@ -1,0 +1,12 @@
+.search-bar{
+  .input-container{
+    float:left;
+    width:50%
+  }
+  &:after{
+    clear:both;
+    height:0;
+    display:block;
+    content: ''
+  }
+}
